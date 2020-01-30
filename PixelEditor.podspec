@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.ios.frameworks = ['UIKit', 'CoreImage']
 
-  s.resource_bundle = "Sources/PixelEditor/Media.xcassets"
+  s.resource_bundles = "Sources/PixelEditor/Media.xcassets"
   s.dependency 'PixelEngine', '~> 0.2.0'
 
   s.dependency 'TransitionPatch', '~> 1.0.0'
